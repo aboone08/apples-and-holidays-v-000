@@ -61,6 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
       puts "#{holiday_name.to_s.capitalize}:" + list_of_supplies(array)
     end
   end
+  return holiday_hash
 end
 
 def all_holidays_with_bbq(holiday_hash)
